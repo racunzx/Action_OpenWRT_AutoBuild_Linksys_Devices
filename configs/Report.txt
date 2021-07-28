@@ -1,0 +1,862 @@
+openwrt-snapshot-r17225+9.txt vs divested-wrt-snapshot.txt
+Produced: 07/28/21 06:28:59 PM
+
+Mode:  All, Ignoring Unimportant
+Left file: /home/eliminater74/Builds/openwrt/BUILD/openwrt-snapshot-r17225+9.txt
+Right file: /home/eliminater74/Builds/openwrt/BUILD/divested-wrt-snapshot.txt
+  1 acme                         +-
+------------------------------------------------------------------------
+  2 adblock                      =    1 adblock
+------------------------------------------------------------------------
+  3 attr                         +-
+  4 avahi-dbus-daemon
+------------------------------------------------------------------------
+  5 banip                        =    2 banip
+  6 base-files                        3 base-files
+------------------------------------------------------------------------
+  7 bash                         <>
+  8 bcp38
+  9 blkid
+ 10 block-mount                       4 bmon
+ 11 boost-chrono
+ 12 boost-random
+ 13 boost-system
+ 14 boost
+------------------------------------------------------------------------
+ 15 btrfs-progs                  =    5 btrfs-progs
+ 16 busybox                           6 busybox
+ 17 ca-bundle                         7 ca-bundle
+ 18 ca-certificates                   8 ca-certificates
+ 19 cgi-io                            9 cgi-io
+------------------------------------------------------------------------
+ 20 collectd-mod-cpu             <>
+ 21 collectd-mod-interface
+ 22 collectd-mod-iwinfo
+ 23 collectd-mod-load
+ 24 collectd-mod-memory
+ 25 collectd-mod-network
+ 26 collectd-mod-rrdtool
+ 27 collectd
+ 28 coreutils-nohup                  10 confuse
+------------------------------------------------------------------------
+ 29 coreutils-sort               =   11 coreutils-sort
+ 30 coreutils                        12 coreutils
+------------------------------------------------------------------------
+ 31 cpulimit                     <>
+ 32 curl
+ 33 dbus
+ 34 dcwapd
+ 35 ddns-scripts-services
+ 36 ddns-scripts
+ 37 dnsmasq                          13 dnsmasq-dhcpv6
+------------------------------------------------------------------------
+ 38 dropbear                     =   14 dropbear
+ 39 e2fsprogs                        15 e2fsprogs
+------------------------------------------------------------------------
+ 40 fdisk                        +-
+------------------------------------------------------------------------
+ 41 firewall                     =   16 firewall
+ 42 fstools                          17 fstools
+------------------------------------------------------------------------
+ 43 fuse-utils                   <>  18 fstrim
+------------------------------------------------------------------------
+ 44 fwtool                       =   19 fwtool
+ 45 getrandom                        20 getrandom
+------------------------------------------------------------------------
+ 46 hd-idle                      +-
+------------------------------------------------------------------------
+ 47 hostapd-common               =   21 hostapd-common
+------------------------------------------------------------------------
+ 48 icu69                        <>  22 htop
+                                     23 ip-bridge
+ 49 ip-full                          24 ip-tiny
+------------------------------------------------------------------------
+ 50 ip6tables                    =   25 ip6tables
+ 51 iperf3                           26 iperf3
+ 52 ipset                            27 ipset
+ 53 iptables-mod-conntrack-extra     28 iptables-mod-conntrack-extra
+ 54 iptables-mod-ipopt               29 iptables-mod-ipopt
+ 55 iptables                         30 iptables
+ 56 irqbalance                       31 irqbalance
+ 57 iw                               32 iw
+ 58 iwinfo                           33 iwinfo
+ 59 jshn                             34 jshn
+ 60 jsonfilter                       35 jsonfilter
+ 61 kernel                           36 kernel
+ 62 kmod-ata-core                    37 kmod-ata-core
+ 63 kmod-ata-marvell-sata            38 kmod-ata-marvell-sata
+ 64 kmod-bluetooth                   39 kmod-bluetooth
+------------------------------------------------------------------------
+ 65 kmod-br-netfilter            +-
+------------------------------------------------------------------------
+ 66 kmod-btmrvl                  =   40 kmod-btmrvl
+ 67 kmod-cfg80211                    41 kmod-cfg80211
+ 68 kmod-crypto-acompress            42 kmod-crypto-acompress
+ 69 kmod-crypto-aead                 43 kmod-crypto-aead
+ 70 kmod-crypto-authenc              44 kmod-crypto-authenc
+ 71 kmod-crypto-ccm                  45 kmod-crypto-ccm
+ 72 kmod-crypto-cmac                 46 kmod-crypto-cmac
+ 73 kmod-crypto-crc32c               47 kmod-crypto-crc32c
+ 74 kmod-crypto-ctr                  48 kmod-crypto-ctr
+ 75 kmod-crypto-ecb                  49 kmod-crypto-ecb
+ 76 kmod-crypto-ecdh                 50 kmod-crypto-ecdh
+ 77 kmod-crypto-gcm                  51 kmod-crypto-gcm
+ 78 kmod-crypto-gf128                52 kmod-crypto-gf128
+ 79 kmod-crypto-ghash                53 kmod-crypto-ghash
+ 80 kmod-crypto-hash                 54 kmod-crypto-hash
+ 81 kmod-crypto-hmac                 55 kmod-crypto-hmac
+ 82 kmod-crypto-kpp                  56 kmod-crypto-kpp
+------------------------------------------------------------------------
+                                 -+  57 kmod-crypto-lib-blake2s
+                                     58 kmod-crypto-lib-chacha20
+                                     59 kmod-crypto-lib-chacha20poly1305
+                                     60 kmod-crypto-lib-curve25519
+                                     61 kmod-crypto-lib-poly1305
+------------------------------------------------------------------------
+ 83 kmod-crypto-manager          =   62 kmod-crypto-manager
+ 84 kmod-crypto-null                 63 kmod-crypto-null
+ 85 kmod-crypto-rng                  64 kmod-crypto-rng
+ 86 kmod-crypto-seqiv                65 kmod-crypto-seqiv
+ 87 kmod-crypto-sha256               66 kmod-crypto-sha256
+ 88 kmod-cryptodev                   67 kmod-cryptodev
+------------------------------------------------------------------------
+ 89 kmod-fs-antfs                +-
+------------------------------------------------------------------------
+ 90 kmod-fs-btrfs                =   68 kmod-fs-btrfs
+------------------------------------------------------------------------
+ 91 kmod-fs-exfat                +-
+------------------------------------------------------------------------
+ 92 kmod-fs-ext4                 =   69 kmod-fs-ext4
+------------------------------------------------------------------------
+ 93 kmod-fs-ntfs                 +-
+ 94 kmod-fs-vfat
+------------------------------------------------------------------------
+ 95 kmod-fuse                    =   70 kmod-fuse
+ 96 kmod-gpio-button-hotplug         71 kmod-gpio-button-hotplug
+ 97 kmod-hid                         72 kmod-hid
+ 98 kmod-ifb                         73 kmod-ifb
+ 99 kmod-input-core                  74 kmod-input-core
+100 kmod-input-evdev                 75 kmod-input-evdev
+101 kmod-ip6tables                   76 kmod-ip6tables
+102 kmod-ipt-conntrack-extra         77 kmod-ipt-conntrack-extra
+103 kmod-ipt-conntrack               78 kmod-ipt-conntrack
+104 kmod-ipt-core                    79 kmod-ipt-core
+105 kmod-ipt-ipopt                   80 kmod-ipt-ipopt
+106 kmod-ipt-ipset                   81 kmod-ipt-ipset
+107 kmod-ipt-nat                     82 kmod-ipt-nat
+108 kmod-ipt-offload                 83 kmod-ipt-offload
+109 kmod-ipt-raw                     84 kmod-ipt-raw
+110 kmod-lib-crc-ccitt               85 kmod-lib-crc-ccitt
+111 kmod-lib-crc16                   86 kmod-lib-crc16
+112 kmod-lib-crc32c                  87 kmod-lib-crc32c
+113 kmod-lib-lzo                     88 kmod-lib-lzo
+114 kmod-lib-raid6                   89 kmod-lib-raid6
+115 kmod-lib-xor                     90 kmod-lib-xor
+116 kmod-lib-zlib-deflate            91 kmod-lib-zlib-deflate
+117 kmod-lib-zlib-inflate            92 kmod-lib-zlib-inflate
+118 kmod-lib-zstd                    93 kmod-lib-zstd
+119 kmod-mac80211                    94 kmod-mac80211
+------------------------------------------------------------------------
+120 kmod-macremapper             <>
+121 kmod-macvlan                     95 kmod-mii
+------------------------------------------------------------------------
+122 kmod-mmc                     =   96 kmod-mmc
+123 kmod-mwifiex-sdio                97 kmod-mwifiex-sdio
+124 kmod-mwlwifi                     98 kmod-mwlwifi
+125 kmod-nf-conntrack-netlink        99 kmod-nf-conntrack-netlink
+126 kmod-nf-conntrack               100 kmod-nf-conntrack
+127 kmod-nf-conntrack6              101 kmod-nf-conntrack6
+128 kmod-nf-flow                    102 kmod-nf-flow
+129 kmod-nf-ipt                     103 kmod-nf-ipt
+130 kmod-nf-ipt6                    104 kmod-nf-ipt6
+131 kmod-nf-nat                     105 kmod-nf-nat
+132 kmod-nf-reject                  106 kmod-nf-reject
+133 kmod-nf-reject6                 107 kmod-nf-reject6
+134 kmod-nfnetlink                  108 kmod-nfnetlink
+------------------------------------------------------------------------
+                                 -+ 109 kmod-nft-core
+                                    110 kmod-nft-nat
+                                    111 kmod-nft-offload
+------------------------------------------------------------------------
+135 kmod-nls-base                =  112 kmod-nls-base
+------------------------------------------------------------------------
+136 kmod-nls-cp437               +-
+137 kmod-nls-iso8859-1
+138 kmod-nls-utf8
+------------------------------------------------------------------------
+139 kmod-ppp                     =  113 kmod-ppp
+140 kmod-pppoe                      114 kmod-pppoe
+141 kmod-pppox                      115 kmod-pppox
+142 kmod-regmap-core                116 kmod-regmap-core
+143 kmod-sched-cake                 117 kmod-sched-cake
+144 kmod-sched-core                 118 kmod-sched-core
+145 kmod-scsi-core                  119 kmod-scsi-core
+146 kmod-slhc                       120 kmod-slhc
+147 kmod-tun                        121 kmod-tun
+------------------------------------------------------------------------
+                                 -+ 122 kmod-udptunnel4
+                                    123 kmod-udptunnel6
+------------------------------------------------------------------------
+148 kmod-usb-core                =  124 kmod-usb-core
+------------------------------------------------------------------------
+149 kmod-usb-ohci-pci            <> 125 kmod-usb-net-cdc-ether
+150 kmod-usb-ohci                   126 kmod-usb-net-ipheth
+151 kmod-usb-storage-extras         127 kmod-usb-net-rndis
+                                    128 kmod-usb-net
+------------------------------------------------------------------------
+152 kmod-usb-storage-uas         =  129 kmod-usb-storage-uas
+153 kmod-usb-storage                130 kmod-usb-storage
+------------------------------------------------------------------------
+154 kmod-usb-uhci                <>
+155 kmod-usb-xhci-hcd
+156 kmod-usb3                       131 kmod-wireguard
+157 libatomic1
+------------------------------------------------------------------------
+158 libattr                      =  132 libattr
+------------------------------------------------------------------------
+159 libavahi-client              +-
+160 libavahi-dbus-support
+------------------------------------------------------------------------
+161 libblkid1                    =  133 libblkid1
+162 libblobmsg-json20210516         134 libblobmsg-json20210516
+163 libbpf0                         135 libbpf0
+------------------------------------------------------------------------
+164 libbz2-1.0                   +-
+------------------------------------------------------------------------
+165 libc                         =  136 libc
+166 libcap-ng                       137 libcap-ng
+------------------------------------------------------------------------
+167 libcap                       +-
+------------------------------------------------------------------------
+168 libcomerr0                   =  138 libcomerr0
+------------------------------------------------------------------------
+169 libcurl4                     +-
+170 libdaemon
+171 libdb47
+172 libdbus
+173 libdcwproto
+174 libdcwsocket
+175 libdouble-conversion
+------------------------------------------------------------------------
+176 libelf1                      =  139 libelf1
+------------------------------------------------------------------------
+177 libexpat                     +-
+------------------------------------------------------------------------
+178 libext2fs2                   =  140 libext2fs2
+------------------------------------------------------------------------
+179 libfdisk1                    +-
+180 libffi
+181 libfuse1
+------------------------------------------------------------------------
+182 libgcc1                      =  141 libgcc1
+------------------------------------------------------------------------
+183 libgdbm                      +-
+184 libgmp10
+185 libgnutls
+------------------------------------------------------------------------
+186 libip4tc2                    =  142 libip4tc2
+187 libip6tc2                       143 libip6tc2
+188 libipset13                      144 libipset13
+189 libiwinfo-data                  145 libiwinfo-data
+190 libiwinfo-lua                   146 libiwinfo-lua
+191 libiwinfo20210430               147 libiwinfo20210430
+192 libjson-c5                      148 libjson-c5
+193 libjson-script20210516          149 libjson-script20210516
+------------------------------------------------------------------------
+194 libltdl7                     +-
+------------------------------------------------------------------------
+195 liblua5.1.5                  =  150 liblua5.1.5
+196 liblucihttp-lua                 151 liblucihttp-lua
+197 liblucihttp0                    152 liblucihttp0
+------------------------------------------------------------------------
+198 liblzma                      +-
+------------------------------------------------------------------------
+199 liblzo2                      =  153 liblzo2
+200 libmnl0                         154 libmnl0
+201 libmount1                       155 libmount1
+202 libncurses6                     156 libncurses6
+203 libnetfilter-conntrack3         157 libnetfilter-conntrack3
+------------------------------------------------------------------------
+204 libnettle8                   +-
+------------------------------------------------------------------------
+205 libnfnetlink0                =  158 libnfnetlink0
+------------------------------------------------------------------------
+                                 -+ 159 libnl-core200
+                                    160 libnl-route200
+------------------------------------------------------------------------
+206 libnl-tiny1                  =  161 libnl-tiny1
+207 libopenssl-conf                 162 libopenssl-conf
+------------------------------------------------------------------------
+                                 -+ 163 libopenssl-devcrypto
+------------------------------------------------------------------------
+208 libopenssl1.1                =  164 libopenssl1.1
+------------------------------------------------------------------------
+209 libpcre                      <> 165 libpcap1
+210 libpcre2-16
+211 libpopt0
+------------------------------------------------------------------------
+212 libpthread                   =  166 libpthread
+------------------------------------------------------------------------
+213 libpython3-3.9               +-
+214 libreadline8
+215 librrd1
+------------------------------------------------------------------------
+216 librt                        =  167 librt
+217 libsmartcols1                   168 libsmartcols1
+------------------------------------------------------------------------
+218 libsodium                    +-
+219 libsqlite3-0
+------------------------------------------------------------------------
+220 libss2                       =  169 libss2
+------------------------------------------------------------------------
+221 libstdcpp6                   +-
+222 libtasn1
+223 libtirpc
+------------------------------------------------------------------------
+224 libubox20210516              =  170 libubox20210516
+225 libubus-lua                     171 libubus-lua
+226 libubus20210630                 172 libubus20210630
+------------------------------------------------------------------------
+227 libuci-lua                   +-
+------------------------------------------------------------------------
+228 libuci20130104               =  173 libuci20130104
+229 libuclient20201210              174 libuclient20201210
+------------------------------------------------------------------------
+230 liburing                     <>
+231 libustream-wolfssl20201210      175 libustream-openssl20201210
+------------------------------------------------------------------------
+232 libuuid1                     =  176 libuuid1
+------------------------------------------------------------------------
+233 libuv1                       +-
+234 libwebsockets-full
+235 libwolfssl4.7.0.39c36f2f
+------------------------------------------------------------------------
+236 libxtables12                 =  177 libxtables12
+------------------------------------------------------------------------
+237 libzstd                      +-
+------------------------------------------------------------------------
+238 logd                         =  178 logd
+------------------------------------------------------------------------
+239 lsblk                        +-
+------------------------------------------------------------------------
+240 lua                          =  179 lua
+------------------------------------------------------------------------
+241 luabitop                     +-
+242 luci-app-acme
+------------------------------------------------------------------------
+243 luci-app-adblock             =  180 luci-app-adblock
+244 luci-app-advanced-reboot        181 luci-app-advanced-reboot
+------------------------------------------------------------------------
+245 luci-app-argon-config        +-
+246 luci-app-autoreboot
+------------------------------------------------------------------------
+247 luci-app-banip               =  182 luci-app-banip
+------------------------------------------------------------------------
+248 luci-app-bcp38               +-
+249 luci-app-boostupnp
+250 luci-app-commands
+251 luci-app-cpu-status
+252 luci-app-cpulimit
+253 luci-app-dcwapd
+254 luci-app-ddns
+255 luci-app-diag-core
+256 luci-app-diskman
+257 luci-app-filebrowser
+258 luci-app-filetransfer
+------------------------------------------------------------------------
+259 luci-app-firewall            =  183 luci-app-firewall
+------------------------------------------------------------------------
+260 luci-app-hd-idle             +-
+261 luci-app-log
+262 luci-app-mqos
+263 luci-app-mwan3
+264 luci-app-netdata
+265 luci-app-netspeedtest
+266 luci-app-nlbwmon
+267 luci-app-openvpn
+------------------------------------------------------------------------
+268 luci-app-opkg                =  184 luci-app-opkg
+------------------------------------------------------------------------
+269 luci-app-ramfree             +-
+270 luci-app-rebootschedule
+271 luci-app-samba4
+------------------------------------------------------------------------
+272 luci-app-sqm                 =  185 luci-app-sqm
+------------------------------------------------------------------------
+273 luci-app-statistics          +-
+274 luci-app-temp-status
+275 luci-app-timecontrol
+276 luci-app-tn-logview
+277 luci-app-ttyd
+278 luci-app-uhttpd
+------------------------------------------------------------------------
+279 luci-app-upnp                =  186 luci-app-upnp
+------------------------------------------------------------------------
+280 luci-app-watchcat            <> 187 luci-app-wireguard
+------------------------------------------------------------------------
+281 luci-base                    =  188 luci-base
+------------------------------------------------------------------------
+282 luci-compat                  <> 189 luci-i18n-adblock-ar
+                                    190 luci-i18n-adblock-bg
+283 luci-i18n-acme-en               191 luci-i18n-adblock-bn
+                                    192 luci-i18n-adblock-ca
+                                    193 luci-i18n-adblock-cs
+                                    194 luci-i18n-adblock-de
+                                    195 luci-i18n-adblock-el
+------------------------------------------------------------------------
+284 luci-i18n-adblock-en         =  196 luci-i18n-adblock-en
+------------------------------------------------------------------------
+                                 -+ 197 luci-i18n-adblock-es
+                                    198 luci-i18n-adblock-fi
+                                    199 luci-i18n-adblock-fr
+                                    200 luci-i18n-adblock-he
+                                    201 luci-i18n-adblock-hi
+                                    202 luci-i18n-adblock-hu
+                                    203 luci-i18n-adblock-it
+                                    204 luci-i18n-adblock-ja
+                                    205 luci-i18n-adblock-ko
+                                    206 luci-i18n-adblock-mr
+                                    207 luci-i18n-adblock-ms
+                                    208 luci-i18n-adblock-no
+                                    209 luci-i18n-adblock-pl
+                                    210 luci-i18n-adblock-pt-br
+                                    211 luci-i18n-adblock-pt
+                                    212 luci-i18n-adblock-ro
+                                    213 luci-i18n-adblock-ru
+                                    214 luci-i18n-adblock-sk
+                                    215 luci-i18n-adblock-sv
+                                    216 luci-i18n-adblock-tr
+                                    217 luci-i18n-adblock-uk
+                                    218 luci-i18n-adblock-vi
+                                    219 luci-i18n-adblock-zh-cn
+                                    220 luci-i18n-adblock-zh-tw
+                                    221 luci-i18n-advanced-reboot-ar
+                                    222 luci-i18n-advanced-reboot-bg
+                                    223 luci-i18n-advanced-reboot-bn
+                                    224 luci-i18n-advanced-reboot-ca
+                                    225 luci-i18n-advanced-reboot-cs
+                                    226 luci-i18n-advanced-reboot-de
+                                    227 luci-i18n-advanced-reboot-el
+------------------------------------------------------------------------
+285 luci-i18n-advanced-reboot-en =  228 luci-i18n-advanced-reboot-en
+------------------------------------------------------------------------
+                                 -+ 229 luci-i18n-advanced-reboot-es
+                                    230 luci-i18n-advanced-reboot-fi
+                                    231 luci-i18n-advanced-reboot-fr
+                                    232 luci-i18n-advanced-reboot-he
+                                    233 luci-i18n-advanced-reboot-hi
+                                    234 luci-i18n-advanced-reboot-hu
+                                    235 luci-i18n-advanced-reboot-it
+                                    236 luci-i18n-advanced-reboot-ja
+                                    237 luci-i18n-advanced-reboot-ko
+                                    238 luci-i18n-advanced-reboot-mr
+                                    239 luci-i18n-advanced-reboot-ms
+                                    240 luci-i18n-advanced-reboot-no
+                                    241 luci-i18n-advanced-reboot-pl
+                                    242 luci-i18n-advanced-reboot-pt-br
+                                    243 luci-i18n-advanced-reboot-pt
+                                    244 luci-i18n-advanced-reboot-ro
+                                    245 luci-i18n-advanced-reboot-ru
+                                    246 luci-i18n-advanced-reboot-sk
+                                    247 luci-i18n-advanced-reboot-sv
+                                    248 luci-i18n-advanced-reboot-tr
+                                    249 luci-i18n-advanced-reboot-uk
+                                    250 luci-i18n-advanced-reboot-vi
+                                    251 luci-i18n-advanced-reboot-zh-cn
+                                    252 luci-i18n-advanced-reboot-zh-tw
+                                    253 luci-i18n-banip-ar
+                                    254 luci-i18n-banip-bg
+                                    255 luci-i18n-banip-bn
+                                    256 luci-i18n-banip-ca
+                                    257 luci-i18n-banip-cs
+                                    258 luci-i18n-banip-de
+                                    259 luci-i18n-banip-el
+------------------------------------------------------------------------
+286 luci-i18n-banip-en           =  260 luci-i18n-banip-en
+------------------------------------------------------------------------
+                                 -+ 261 luci-i18n-banip-es
+                                    262 luci-i18n-banip-fi
+                                    263 luci-i18n-banip-fr
+                                    264 luci-i18n-banip-he
+                                    265 luci-i18n-banip-hi
+                                    266 luci-i18n-banip-hu
+                                    267 luci-i18n-banip-it
+                                    268 luci-i18n-banip-ja
+                                    269 luci-i18n-banip-ko
+                                    270 luci-i18n-banip-mr
+                                    271 luci-i18n-banip-ms
+                                    272 luci-i18n-banip-nl
+                                    273 luci-i18n-banip-no
+                                    274 luci-i18n-banip-pl
+                                    275 luci-i18n-banip-pt-br
+                                    276 luci-i18n-banip-pt
+                                    277 luci-i18n-banip-ro
+                                    278 luci-i18n-banip-ru
+                                    279 luci-i18n-banip-sk
+                                    280 luci-i18n-banip-sv
+                                    281 luci-i18n-banip-tr
+                                    282 luci-i18n-banip-uk
+                                    283 luci-i18n-banip-vi
+                                    284 luci-i18n-banip-zh-cn
+                                    285 luci-i18n-banip-zh-tw
+                                    286 luci-i18n-base-ar
+                                    287 luci-i18n-base-bg
+                                    288 luci-i18n-base-bn
+                                    289 luci-i18n-base-ca
+                                    290 luci-i18n-base-cs
+                                    291 luci-i18n-base-de
+                                    292 luci-i18n-base-el
+------------------------------------------------------------------------
+287 luci-i18n-base-en            =  293 luci-i18n-base-en
+------------------------------------------------------------------------
+                                 <> 294 luci-i18n-base-es
+                                    295 luci-i18n-base-fi
+                                    296 luci-i18n-base-fr
+                                    297 luci-i18n-base-he
+                                    298 luci-i18n-base-hi
+                                    299 luci-i18n-base-hu
+                                    300 luci-i18n-base-it
+                                    301 luci-i18n-base-ja
+                                    302 luci-i18n-base-ko
+                                    303 luci-i18n-base-mr
+                                    304 luci-i18n-base-ms
+288 luci-i18n-bcp38-en              305 luci-i18n-base-nl
+289 luci-i18n-commands-en           306 luci-i18n-base-no
+                                    307 luci-i18n-base-pl
+                                    308 luci-i18n-base-pt-br
+                                    309 luci-i18n-base-pt
+290 luci-i18n-dashboard-en          310 luci-i18n-base-ro
+291 luci-i18n-dcwapd-en             311 luci-i18n-base-ru
+292 luci-i18n-ddns-en               312 luci-i18n-base-sk
+                                    313 luci-i18n-base-sv
+                                    314 luci-i18n-base-tr
+                                    315 luci-i18n-base-uk
+                                    316 luci-i18n-base-vi
+                                    317 luci-i18n-base-zh-cn
+                                    318 luci-i18n-base-zh-tw
+                                    319 luci-i18n-firewall-ar
+                                    320 luci-i18n-firewall-bg
+                                    321 luci-i18n-firewall-bn
+                                    322 luci-i18n-firewall-ca
+                                    323 luci-i18n-firewall-cs
+293 luci-i18n-diag-core-en          324 luci-i18n-firewall-de
+                                    325 luci-i18n-firewall-el
+------------------------------------------------------------------------
+294 luci-i18n-firewall-en        =  326 luci-i18n-firewall-en
+------------------------------------------------------------------------
+                                 <> 327 luci-i18n-firewall-es
+                                    328 luci-i18n-firewall-fi
+                                    329 luci-i18n-firewall-fr
+295 luci-i18n-hd-idle-en            330 luci-i18n-firewall-he
+                                    331 luci-i18n-firewall-hi
+                                    332 luci-i18n-firewall-hu
+                                    333 luci-i18n-firewall-it
+                                    334 luci-i18n-firewall-ja
+                                    335 luci-i18n-firewall-ko
+296 luci-i18n-mwan3-en              336 luci-i18n-firewall-mr
+                                    337 luci-i18n-firewall-ms
+                                    338 luci-i18n-firewall-nl
+297 luci-i18n-nlbwmon-en            339 luci-i18n-firewall-no
+                                    340 luci-i18n-firewall-pl
+                                    341 luci-i18n-firewall-pt-br
+                                    342 luci-i18n-firewall-pt
+                                    343 luci-i18n-firewall-ro
+                                    344 luci-i18n-firewall-ru
+                                    345 luci-i18n-firewall-sk
+                                    346 luci-i18n-firewall-sv
+                                    347 luci-i18n-firewall-tr
+                                    348 luci-i18n-firewall-uk
+                                    349 luci-i18n-firewall-vi
+                                    350 luci-i18n-firewall-zh-cn
+                                    351 luci-i18n-firewall-zh-tw
+                                    352 luci-i18n-opkg-ar
+                                    353 luci-i18n-opkg-bg
+298 luci-i18n-openvpn-en            354 luci-i18n-opkg-bn
+                                    355 luci-i18n-opkg-ca
+                                    356 luci-i18n-opkg-cs
+                                    357 luci-i18n-opkg-de
+                                    358 luci-i18n-opkg-el
+------------------------------------------------------------------------
+299 luci-i18n-opkg-en            =  359 luci-i18n-opkg-en
+------------------------------------------------------------------------
+300 luci-i18n-rebootschedule-en  <> 360 luci-i18n-opkg-es
+                                    361 luci-i18n-opkg-fi
+                                    362 luci-i18n-opkg-fr
+                                    363 luci-i18n-opkg-he
+                                    364 luci-i18n-opkg-hi
+                                    365 luci-i18n-opkg-hu
+                                    366 luci-i18n-opkg-it
+                                    367 luci-i18n-opkg-ja
+                                    368 luci-i18n-opkg-ko
+                                    369 luci-i18n-opkg-mr
+                                    370 luci-i18n-opkg-ms
+                                    371 luci-i18n-opkg-no
+                                    372 luci-i18n-opkg-pl
+                                    373 luci-i18n-opkg-pt-br
+                                    374 luci-i18n-opkg-pt
+                                    375 luci-i18n-opkg-ro
+                                    376 luci-i18n-opkg-ru
+                                    377 luci-i18n-opkg-sk
+                                    378 luci-i18n-opkg-sv
+                                    379 luci-i18n-opkg-tr
+                                    380 luci-i18n-opkg-uk
+                                    381 luci-i18n-opkg-vi
+                                    382 luci-i18n-opkg-zh-cn
+                                    383 luci-i18n-opkg-zh-tw
+                                    384 luci-i18n-sqm-ar
+                                    385 luci-i18n-sqm-bg
+301 luci-i18n-samba4-en             386 luci-i18n-sqm-bn
+                                    387 luci-i18n-sqm-ca
+                                    388 luci-i18n-sqm-cs
+                                    389 luci-i18n-sqm-de
+                                    390 luci-i18n-sqm-el
+------------------------------------------------------------------------
+302 luci-i18n-sqm-en             =  391 luci-i18n-sqm-en
+------------------------------------------------------------------------
+303 luci-i18n-statistics-en      <> 392 luci-i18n-sqm-es
+                                    393 luci-i18n-sqm-fi
+                                    394 luci-i18n-sqm-fr
+                                    395 luci-i18n-sqm-he
+                                    396 luci-i18n-sqm-hi
+                                    397 luci-i18n-sqm-hu
+304 luci-i18n-timecontrol-en        398 luci-i18n-sqm-it
+                                    399 luci-i18n-sqm-ja
+                                    400 luci-i18n-sqm-ko
+                                    401 luci-i18n-sqm-mr
+                                    402 luci-i18n-sqm-ms
+                                    403 luci-i18n-sqm-no
+                                    404 luci-i18n-sqm-pl
+                                    405 luci-i18n-sqm-pt-br
+                                    406 luci-i18n-sqm-pt
+                                    407 luci-i18n-sqm-ro
+                                    408 luci-i18n-sqm-ru
+                                    409 luci-i18n-sqm-sk
+                                    410 luci-i18n-sqm-sv
+                                    411 luci-i18n-sqm-tr
+                                    412 luci-i18n-sqm-uk
+                                    413 luci-i18n-sqm-vi
+                                    414 luci-i18n-sqm-zh-cn
+                                    415 luci-i18n-sqm-zh-tw
+                                    416 luci-i18n-upnp-ar
+                                    417 luci-i18n-upnp-bg
+                                    418 luci-i18n-upnp-bn
+                                    419 luci-i18n-upnp-ca
+                                    420 luci-i18n-upnp-cs
+305 luci-i18n-ttyd-en               421 luci-i18n-upnp-de
+306 luci-i18n-uhttpd-en             422 luci-i18n-upnp-el
+------------------------------------------------------------------------
+307 luci-i18n-upnp-en            =  423 luci-i18n-upnp-en
+------------------------------------------------------------------------
+                                 <> 424 luci-i18n-upnp-es
+                                    425 luci-i18n-upnp-fi
+                                    426 luci-i18n-upnp-fr
+308 luci-i18n-watchcat-en           427 luci-i18n-upnp-he
+                                    428 luci-i18n-upnp-hi
+                                    429 luci-i18n-upnp-hu
+                                    430 luci-i18n-upnp-it
+                                    431 luci-i18n-upnp-ja
+                                    432 luci-i18n-upnp-ko
+                                    433 luci-i18n-upnp-mr
+                                    434 luci-i18n-upnp-ms
+                                    435 luci-i18n-upnp-no
+                                    436 luci-i18n-upnp-pl
+                                    437 luci-i18n-upnp-pt-br
+                                    438 luci-i18n-upnp-pt
+                                    439 luci-i18n-upnp-ro
+                                    440 luci-i18n-upnp-ru
+                                    441 luci-i18n-upnp-sk
+                                    442 luci-i18n-upnp-sv
+                                    443 luci-i18n-upnp-tr
+                                    444 luci-i18n-upnp-uk
+                                    445 luci-i18n-upnp-vi
+                                    446 luci-i18n-upnp-zh-cn
+                                    447 luci-i18n-upnp-zh-tw
+                                    448 luci-i18n-wireguard-ar
+                                    449 luci-i18n-wireguard-bg
+                                    450 luci-i18n-wireguard-bn
+                                    451 luci-i18n-wireguard-ca
+                                    452 luci-i18n-wireguard-cs
+                                    453 luci-i18n-wireguard-de
+                                    454 luci-i18n-wireguard-el
+                                    455 luci-i18n-wireguard-en
+                                    456 luci-i18n-wireguard-es
+                                    457 luci-i18n-wireguard-fi
+                                    458 luci-i18n-wireguard-fr
+                                    459 luci-i18n-wireguard-he
+                                    460 luci-i18n-wireguard-hi
+                                    461 luci-i18n-wireguard-hu
+                                    462 luci-i18n-wireguard-it
+                                    463 luci-i18n-wireguard-ja
+                                    464 luci-i18n-wireguard-ko
+                                    465 luci-i18n-wireguard-mr
+                                    466 luci-i18n-wireguard-ms
+                                    467 luci-i18n-wireguard-no
+                                    468 luci-i18n-wireguard-pl
+                                    469 luci-i18n-wireguard-pt-br
+                                    470 luci-i18n-wireguard-pt
+                                    471 luci-i18n-wireguard-ro
+                                    472 luci-i18n-wireguard-ru
+                                    473 luci-i18n-wireguard-sk
+                                    474 luci-i18n-wireguard-sv
+                                    475 luci-i18n-wireguard-tr
+                                    476 luci-i18n-wireguard-uk
+                                    477 luci-i18n-wireguard-vi
+                                    478 luci-i18n-wireguard-zh-cn
+                                    479 luci-i18n-wireguard-zh-tw
+------------------------------------------------------------------------
+309 luci-lib-base                =  480 luci-lib-base
+------------------------------------------------------------------------
+310 luci-lib-fs                  +-
+311 luci-lib-httpprotoutils
+------------------------------------------------------------------------
+312 luci-lib-ip                  =  481 luci-lib-ip
+------------------------------------------------------------------------
+313 luci-lib-ipkg                +-
+------------------------------------------------------------------------
+314 luci-lib-jsonc               =  482 luci-lib-jsonc
+315 luci-lib-nixio                  483 luci-lib-nixio
+------------------------------------------------------------------------
+316 luci-lib-px5g                +-
+------------------------------------------------------------------------
+317 luci-mod-admin-full          =  484 luci-mod-admin-full
+------------------------------------------------------------------------
+318 luci-mod-dashboard           +-
+------------------------------------------------------------------------
+319 luci-mod-network             =  485 luci-mod-network
+320 luci-mod-status                 486 luci-mod-status
+321 luci-mod-system                 487 luci-mod-system
+322 luci-proto-ipv6                 488 luci-proto-ipv6
+323 luci-proto-ppp                  489 luci-proto-ppp
+------------------------------------------------------------------------
+324 luci-theme-argon             <> 490 luci-proto-wireguard
+                                    491 luci-ssl-openssl
+------------------------------------------------------------------------
+325 luci-theme-bootstrap         =  492 luci-theme-bootstrap
+------------------------------------------------------------------------
+326 luci-theme-material          +-
+327 luci-theme-opentomato
+328 luci-theme-openwrt-2020
+329 luci-theme-openwrt
+------------------------------------------------------------------------
+330 luci                         =  493 luci
+331 miniupnpd                       494 miniupnpd
+------------------------------------------------------------------------
+332 mrmctl                       +-
+------------------------------------------------------------------------
+333 mtd                          =  495 mtd
+------------------------------------------------------------------------
+334 mwan3                        <> 496 mtr
+------------------------------------------------------------------------
+335 mwifiex-sdio-firmware        =  497 mwifiex-sdio-firmware
+------------------------------------------------------------------------
+                                 -+ 498 mwlwifi-firmware-88w8864
+------------------------------------------------------------------------
+336 mwlwifi-firmware-88w8964     =  499 mwlwifi-firmware-88w8964
+337 nano                            500 nano
+------------------------------------------------------------------------
+338 netdata                      <> 501 ncdu
+------------------------------------------------------------------------
+339 netifd                       =  502 netifd
+------------------------------------------------------------------------
+340 nlbwmon                      +-
+341 ntfs-3g
+------------------------------------------------------------------------
+342 odhcp6c                      =  503 odhcp6c
+343 odhcpd-ipv6only                 504 odhcpd-ipv6only
+344 openssl-util                    505 openssl-util
+------------------------------------------------------------------------
+345 openvpn-openssl              +-
+------------------------------------------------------------------------
+346 openwrt-keyring              =  506 openwrt-keyring
+347 opkg                            507 opkg
+------------------------------------------------------------------------
+348 parted                       +-
+------------------------------------------------------------------------
+349 ppp-mod-pppoe                =  508 ppp-mod-pppoe
+350 ppp                             509 ppp
+------------------------------------------------------------------------
+                                 -+ 510 procd-seccomp
+                                    511 procd-ujail
+------------------------------------------------------------------------
+351 procd                        =  512 procd
+------------------------------------------------------------------------
+352 python3-asyncio              +-
+353 python3-base
+354 python3-cgi
+355 python3-cgitb
+356 python3-codecs
+357 python3-ctypes
+358 python3-dbm
+359 python3-decimal
+360 python3-distutils
+361 python3-email
+362 python3-light
+363 python3-logging
+364 python3-lzma
+365 python3-multiprocessing
+366 python3-ncurses
+367 python3-openssl
+368 python3-pydoc
+369 python3-readline
+370 python3-sqlite3
+371 python3-unittest
+372 python3-urllib
+373 python3-xml
+374 python3
+375 qt5-core
+376 qt5-network
+377 qt5-xml
+378 rblibtorrent
+379 rclone-ng
+380 rclone-webui-react
+381 rclone
+------------------------------------------------------------------------
+382 rpcd-mod-file                =  513 rpcd-mod-file
+383 rpcd-mod-iwinfo                 514 rpcd-mod-iwinfo
+384 rpcd-mod-luci                   515 rpcd-mod-luci
+385 rpcd-mod-rrdns                  516 rpcd-mod-rrdns
+386 rpcd                            517 rpcd
+------------------------------------------------------------------------
+387 rrdtool1                     +-
+388 samba4-libs
+389 samba4-server
+390 smartmontools-drivedb
+391 smartmontools
+392 socat
+------------------------------------------------------------------------
+393 sqm-scripts                  =  518 sqm-scripts
+394 tc-mod-iptables                 519 tc-mod-iptables
+395 tc-tiny                         520 tc-tiny
+------------------------------------------------------------------------
+                                 -+ 521 tcpdump
+------------------------------------------------------------------------
+396 terminfo                     =  522 terminfo
+------------------------------------------------------------------------
+397 ttyd                         <> 523 tree
+                                    524 tune2fs
+------------------------------------------------------------------------
+398 ubi-utils                    =  525 ubi-utils
+399 uboot-envtools                  526 uboot-envtools
+400 ubox                            527 ubox
+401 ubus                            528 ubus
+402 ubusd                           529 ubusd
+403 uci                             530 uci
+404 uclient-fetch                   531 uclient-fetch
+405 uhttpd-mod-ubus                 532 uhttpd-mod-ubus
+406 uhttpd                          533 uhttpd
+407 urandom-seed                    534 urandom-seed
+408 urngd                           535 urngd
+409 usign                           536 usign
+------------------------------------------------------------------------
+410 watchcat                     <>
+411 wget-ssl                        537 wireguard-tools
+------------------------------------------------------------------------
+412 wireless-regdb               =  538 wireless-regdb
+------------------------------------------------------------------------
+413 wpad-basic-wolfssl           <> 539 wpad-openssl
+414 wsdd2
+------------------------------------------------------------------------
+415 zlib                         =  540 zlib
+------------------------------------------------------------------------
+416 zoneinfo-northamerica        +-
+------------------------------------------------------------------------
