@@ -314,10 +314,13 @@ jobs:
         [ -d patches/packages ] && mv patches/packages openwrt/feeds/packages/patches
         [ -d patches/luci ] && mv patches/luci openwrt/feeds/luci/patches
         cd openwrt
+        echo "$PWD"
         git am patches/*.patch
         cd feeds/packages
+        echo "$PWD"
         git am patches/*.patch
         cd ../luci
+        echo "$PWD"
         git am patches/*.patch
 
     - name: Smart chmod
