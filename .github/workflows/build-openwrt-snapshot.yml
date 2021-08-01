@@ -310,18 +310,15 @@ jobs:
     - name: Run Custom Patches
       if: env.USE_PATCHES == 'true' && !cancelled()
       run: |
-        [ -d patches/openwrt ] && mv patches/openwrt openwrt/patches
+        [ -d patches/openwrt ] && mv patches/openwrt openwrt/patches && cd openwrt && git am patches/*.patch
         [ -d patches/packages ] && mv patches/packages openwrt/feeds/packages/patches
         [ -d patches/luci ] && mv patches/luci openwrt/feeds/luci/patches
-        cd openwrt
-        echo "$PWD"
-        git am patches/*.patch
-        cd feeds/packages
-        echo "$PWD"
-        git am patches/*.patch
-        cd ../luci
-        echo "$PWD"
-        git am patches/*.patch
+#        cd feeds/packages
+#        echo "$pwd"
+#        git am patches/*.patch
+#        cd ../luci
+#        echo "$pwd"
+#        git am patches/*.patch
 
     - name: Smart chmod
       run: |
