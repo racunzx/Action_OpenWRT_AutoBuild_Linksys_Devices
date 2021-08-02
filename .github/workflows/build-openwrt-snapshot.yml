@@ -310,7 +310,7 @@ jobs:
     - name: Run Custom Patches
       if: env.USE_PATCHES == 'true' && !cancelled()
       run: |
-        [ -d patches/openwrt/patches ] && mv patches/openwrt/patches openwrt/patches && cd openwrt && git am patches/*.patch
+        [ -d patches/openwrt/patches ] && mv patches/openwrt/patches openwrt/patches ; cd openwrt ; git am patches/*.patch
         [ -d patches/packages/patches ] && mv patches/packages/patches openwrt/feeds/packages/patches
         [ -d patches/luci/patches ] && mv patches/luci/patches openwrt/feeds/luci/patches
 
